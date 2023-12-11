@@ -14,3 +14,5 @@ Bottom PCB Connectors:
 
 PCB Stack Connectors:
 ![My Image](images/Connectors.png)
+
+Wiring and assembly instruction can be found in https://github.com/CodeWorksCZ/PCB-Stack-for-oXSensors/wiki
