@@ -30,3 +30,5 @@ The initial version lacks the capability to connect additional I2C devices.
 **Wiring diagram**
 
 ![Wiring](images/OpenXSensors-Wiring.png)
+
+Precompiled firmware with the temperature calculation  based on NTC thermistor values can be [here](/oXs%20Firmware/).
