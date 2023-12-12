@@ -1,3 +1,9 @@
+This PCB is designed for direct connection to JST-SH connector on PCB Stack. It allows to measure current as well as voltage on connected Li-Pol battery.
+
+
+![Current Sensor](Current%20Sensor.png)
+
+
 **PART LIST**
 
 |Part|Value               |Device                        |Package                  |Description           |

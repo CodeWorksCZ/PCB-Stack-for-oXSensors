@@ -1566,6 +1566,12 @@
 <text x="279.4" y="50.8" size="1.778" layer="91">2S</text>
 <text x="279.4" y="48.26" size="1.778" layer="91">3S</text>
 <text x="279.4" y="45.72" size="1.778" layer="91">4S</text>
+<wire x1="-99.06" y1="81.28" x2="-99.06" y2="15.24" width="0.1524" layer="97"/>
+<wire x1="-99.06" y1="15.24" x2="7.62" y2="15.24" width="0.1524" layer="97"/>
+<wire x1="7.62" y1="15.24" x2="7.62" y2="81.28" width="0.1524" layer="97"/>
+<wire x1="7.62" y1="81.28" x2="-99.06" y2="81.28" width="0.1524" layer="97"/>
+<text x="-93.98" y="76.2" size="2.54" layer="97">PWR</text>
+<text x="53.34" y="50.8" size="5.08" layer="97">RP2040-Zero</text>
 </plain>
 <instances>
 <instance part="5V" gate="1" x="43.18" y="60.96" smashed="yes" rot="R180">

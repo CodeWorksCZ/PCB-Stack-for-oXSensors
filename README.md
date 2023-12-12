@@ -1,7 +1,9 @@
 # PCB Stack for oXSensors
 This PCB design focuses on creating a minimalistic and efficient PCB stack for OpenXSensor project  https://github.com/mstrens/oXs_on_RP2040 , incorporating essential features such as Li-PoL  individuall cell measurement, temperature measurement using NTC, and seamless integration with external GPS modules and on-board BMP280.
 
-Since this version utilizes temperature measurement using 10K NTC thermistor a slight code change is required.
+This version utilizes temperature measurement using 10K NTC thermistor  which si not originaly counted on in firmware, thus a slight code addition is required.
+
+PCB Stack can be powered by standard 5V or can handle up to 12V  setting up a solder pads. THis can be usefull when running HV servos.
 
 Top PCB Connectors:
 
