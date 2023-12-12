@@ -18,7 +18,7 @@ Bottom PCB Connectors:
 - ACS758 Current Sensor and Voltage measurement
 
 PCB Stack Connectors:
-![My Image](images/Connectors.png)
+![Connectors](images/Connectors.png)
 
 Wiring and assembly instructions can be found in https://github.com/CodeWorksCZ/PCB-Stack-for-oXSensors/wiki
 
@@ -26,4 +26,4 @@ First version does not have a possibility to connect other I2C devices.
 
 Wiring diagram
 
-![My Image](images/OpenXSensors-Wiring.png)
+![Wiring](images/OpenXSensors-Wiring.png)
