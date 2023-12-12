@@ -3,7 +3,7 @@ This PCB design focuses on creating a minimalistic and efficient PCB stack for O
 
 This version utilizes temperature measurement using 10K NTC thermistor  which si not originaly counted on in firmware, thus a slight code addition is required.
 
-PCB Stack can be powered by standard 5V or can handle up to 12V  setting up a solder pads. THis can be usefull when running HV servos.
+PCB Stack can be powered by standard 5V or can handle up to 12V  setting up a solder pads. This can be usefull when running HV servos at 8.4V.
 
 Top PCB Connectors:
 
@@ -18,7 +18,8 @@ Bottom PCB Connectors:
 - ACS758 Current Sensor and Voltage measurement
 
 PCB Stack Connectors:
-![My Image](images/Connectors.png)
+    
+![Connectors](images/Connectors.png)
 
 Wiring and assembly instructions can be found in https://github.com/CodeWorksCZ/PCB-Stack-for-oXSensors/wiki
 
@@ -26,4 +27,4 @@ First version does not have a possibility to connect other I2C devices.
 
 Wiring diagram
 
-![My Image](images/OpenXSensors-Wiring.png)
+![Wiring](images/OpenXSensors-Wiring.png)
