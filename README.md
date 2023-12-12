@@ -1,30 +1,32 @@
+
 # PCB Stack for oXSensors
+
 This PCB design focuses on creating a minimalistic and efficient PCB stack for OpenXSensor project  https://github.com/mstrens/oXs_on_RP2040 , incorporating essential features such as Li-PoL  individuall cell measurement, temperature measurement using NTC, and seamless integration with external GPS modules and on-board BMP280.
 
-This version utilizes temperature measurement using 10K NTC thermistor  which si not originaly counted on in firmware, thus a slight code addition is required.
+This version incorporates temperature measurement using a 10K NTC thermistor, which is not originally accounted for in the [firmware](https://github.com/mstrens/oXs_on_RP2040). Therefore, a minor code addition and code compiling is necessary.
 
-PCB Stack can be powered by standard 5V or can handle up to 12V  setting up a solder pads. This can be usefull when running HV servos at 8.4V.
+The PCB stack can be powered by standard 5V or can handle up to 12V by configuring the solder pads. This can be useful when operating high-voltage (HV) servos at 8.4V.
 
-Top PCB Connectors:
+**Top PCB Connectors**:
 
 - NTC 10K Thermistor
 - RPM -> to CDI
 - ACS758 Current Sensor and Voltage measurement
 
-Bottom PCB Connectors:
+**Bottom PCB Connectors:**
 
-- Li-Pol Cells Measurement (up to 4S)
+- Li-Pol Cells Measurement (up to 4S) connected to on-board ADS1115
 - GPS Module - e.g. BN-220
 - ACS758 Current Sensor and Voltage measurement
 
-PCB Stack Connectors:
-    
+**PCB Stack Connectors:**
+
 ![Connectors](images/Connectors.png)
 
 Wiring and assembly instructions can be found in https://github.com/CodeWorksCZ/PCB-Stack-for-oXSensors/wiki
 
-First version does not have a possibility to connect other I2C devices.
+The initial version lacks the capability to connect additional I2C devices.
 
-Wiring diagram
+**Wiring diagram**
 
 ![Wiring](images/OpenXSensors-Wiring.png)
