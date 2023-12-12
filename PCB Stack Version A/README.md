@@ -6,5 +6,4 @@
 |   Top.brd	|   Eagle Board design of Top PCB	|
 |   Top.sch	|   Eagle Schematics of Top PCB	|
 |   Top.pdf |   Schematics in PDF	|
-
-|   PCB Stacj oXs.f3z	|   Fusion360 Files	|
+|   PCB Stack oXs.f3z	|   Fusion360 Files	|
