@@ -1,0 +1,1 @@
+![Connectors](../images/Enclosure%20-%20Version%20A.jpg)
